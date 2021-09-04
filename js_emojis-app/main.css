@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('images/milky-way-2695569__480.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-top: 5rem;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.emojis-div {
+    display: flex;
+    justify-content: space-between;
+    background: #413737;
+    width: 60%;
+    height: 455px;
+    border-radius: 15px;
+    border: 5px solid #fff;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.emojis-div p {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    font-size: 1.619rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    padding: 1rem;
+    border: 5px solid #fff;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.add-btn {
+    background-color: #00D3FF;
+}
+
+.delete-btn {
+    background-color: #FF0000;
+}
+
+.input {
+    background: #413737;
+    border-radius: 45px;
+    border: 5px solid #fff;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    height: 64px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
