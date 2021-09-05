@@ -37,10 +37,12 @@ h1 {
     border: 5px solid #fff;
     margin-right: 2rem;
     margin-left: 2rem;
+    font-size: 3rem;
+    flex-wrap: wrap;
 }
 
 .emojis-div p {
-    width: 100%;
+    width: 25%;
     text-align: center;
 }
 
@@ -76,4 +78,5 @@ button {
     height: 64px;
     margin-top: auto;
     margin-bottom: auto;
+    font-size: 1.5rem;
 }
