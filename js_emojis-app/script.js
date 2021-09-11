@@ -19,6 +19,7 @@ if (localStorageEmojis) {
 
 function render(list) {
     localStorage.setItem('emojis', JSON.stringify(emojis));
+    input.value = '';
     displayList = '';    // so it doesnt repeat the emojis on each click
     for (let i = 0; i < list.length; i++) {
         displayList += `
@@ -31,7 +32,6 @@ function render(list) {
 addStartBtn.addEventListener('click', function() {
     if (input.value) {
         emojis.unshift(input.value);
-        input.value = '';
         render(emojis);
     }
 })
@@ -39,7 +39,6 @@ addStartBtn.addEventListener('click', function() {
 addEndBtn.addEventListener('click', function() {
     if (input.value) {
         emojis.push(input.value);
-        input.value = '';
         render(emojis);
     }
 })
