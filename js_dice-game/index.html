@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Dice Game</h1>
+
+        <div class="flex">
+            <p class="score">player score: <span id="player-score">0</span></p>
+            <p class="score">bot score: <span id="bot-score">0</span></p>
+        </div>
+
+        <div class="flex">
+            <div class="dice-container">
+                <p class="dice" id="player-dice">-</p>
+            </div>
+
+            <div class="dice-container">
+                <p class="dice" id="bot-dice">-</p>
+            </div>
+        </div>
+
+        <button id="btn">Throw dice</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
