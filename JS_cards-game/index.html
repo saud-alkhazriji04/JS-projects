@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <p>Remaining Cards: <span id="remaining">0</span></p>
+    <div class="container">
+        <header class="flex header">
+            <h1 class="title">cards game</h1>
+            <button class="btn" id="new-deck-btn">get new deck of cards</button>
+        </header>
+
+        <main class="main flex">
+            <h3 id="display-winner">start game</h3>
+        
+            <div>
+                <div class="flex score-container">
+                    <p class="my-score">My Score: <span id="my-score">0</span></p>
+                    <p class="bot-score">Bot Score: <span id="bot-score">0</span></p>
+                </div>
+
+                <div class="flex" id="cards-container">
+                    <div class="card-container"></div>
+                    <div class="card-container"></div>
+                </div>
+            </div>
+
+            <button class="btn" id="draw-card-btn">draw new card</button>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
